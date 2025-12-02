@@ -35,7 +35,8 @@ Se configuró UFW (Uncomplicated Firewall) para denegar todo el tráfico entrant
 
 EN BASH A CONTINUACIÓN:
 
-
 sudo ufw default deny incoming
+
 sudo ufw allow ssh
+
 sudo ufw enable
