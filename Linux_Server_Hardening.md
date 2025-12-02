@@ -9,7 +9,7 @@ Durante la auditoría inicial, identifiqué archivos críticos con permisos `777
 **Acción correctiva:**
 Apliqué el principio de menor privilegio restringiendo el acceso únicamente al propietario.
 
-```bash
+bash
 # Verificar permisos actuales
 ls -l /home/analyst/project_files
 
