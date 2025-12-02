@@ -19,7 +19,7 @@ chmod 600 confidential_data.txt
 # Asegurar la propiedad del archivo al usuario root
 sudo chown root:root confidential_data.txt
 
-## 2. Gestión de Usuarios y AccesosSe auditó el archivo /etc/group para detectar configuraciones erróneas en la elevación de privilegios.
+## 2. Gestión de Usuarios y Accesos
 Se auditó el archivo /etc/group para detectar configuraciones erróneas en la elevación de privilegios.
 
 **Acción correctiva:**
